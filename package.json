@@ -1,0 +1,38 @@
+{
+    "name": "todolist_expressserver",
+    "version": "1.0.0",
+    "description": "espress server to provide data to a react todo list app",
+    "main": "src/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "babel-node src/server.js",
+        "debug": "babel src --out-dir .compiled --source-maps --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IgorCRD/todoList_expressServer.git"
+    },
+    "author": "IgorCRD",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/IgorCRD/todoList_expressServer/issues"
+    },
+    "homepage": "https://github.com/IgorCRD/todoList_expressServer#readme",
+    "dependencies": {
+        "bcrypt": "^1.0.3",
+        "body-parser": "^1.18.2",
+        "cors": "^2.8.4",
+        "express": "^4.16.2",
+        "jwt-simple": "^0.5.1",
+        "redis": "^2.8.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "eslint": "^4.15.0",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.8.0",
+        "prettier": "^1.10.2",
+        "prettier-eslint": "^8.7.4"
+    }
+}
